@@ -1,0 +1,23 @@
+FAILED:  ADXE10Tests.EstimateDamageKevan.EstimateDamageKevan.TotalLossCalculatorTest("1827963")
+
+Error Message:
+  Expected: True
+  But was:  False
+
+
+Stack Trace:
+   at ADXE10Tests.EstimateDamageKevan.EstimateDamageKevan.TotalLossCalculatorTest(String num) in E:\Jenkins\Workspaces\ADXE10_Cert\ADXE10Tests\EstimateDamageKevan.cs:line 636
+
+
+FAILED:  ADXE10Tests.WorkList.WorkList.ClaimActionsDamageTest("1930617")
+
+Error Message:
+Could not place action 'CLICK' on Left menu toggle element. element click intercepted: Element <a id="menu-toggle">...</a> is not clickable at point (33, 20). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.ClickElement(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.ClickLeftMenu() in E:\Jenkins\Workspaces\ADXE10_Cert\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 142
+   at ADXE10Tests.WorkList.WorkList.ClaimActionsDamageTest(String num) in E:\Jenkins\Workspaces\ADXE10_Cert\ADXE10Tests\NewEstimate.cs:line 989

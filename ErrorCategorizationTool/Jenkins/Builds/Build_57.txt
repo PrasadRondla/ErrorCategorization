@@ -1,0 +1,862 @@
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.ShopNewRateRecordHomeProfile("5098485")
+
+Error Message:
+Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+TearDown : NUnit.Framework.AssertionException : Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+
+Stack Trace:
+--TearDown
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at NUnit.Framework.Assert.Fail(String message)
+   at aUI.Automation.HelperObjects.SolAssert.Fail(String message)
+   at ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.TearDown() in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_ShopProfileTests.cs:line 3214
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAuto2.ClaimsElement_ResetButtonClearsAllPreviouslyEnteredValues("6855079")
+
+Error Message:
+Could not place action 'CLICK' on  element. element click intercepted: Element <div class="Select-multi-value-wrapper" id="react-select-InsuranceCompanyDropdown--value">...</div> is not clickable at point (521, 216). Other element would receive the click: <div class="spinner-overlay"></div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at EstimationAutomation.EstimationAutomationBase.SelectFromDropdown(ActionResult element, ElementDefinition selection) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 538
+   at EstimationAutomation.PageObjects.SearchPage.SearchPageFragments.InputFragments.SelectInsuranceCompanyDropdown(String insuranceCompany) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\SearchPage\SearchPageFragments\InputFragments.cs:line 162
+   at ADXE10Tests.EstimateDamage.EstimateDamageAuto2.ClaimsElement_ResetButtonClearsAllPreviouslyEnteredValues(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_Auto_2.cs:line 3438
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAuto1.DamagePageSides_Both("1510680")
+
+Error Message:
+  Expected: True
+  But was:  False
+
+
+Stack Trace:
+   at ADXE10Tests.EstimateDamage.EstimateDamageAuto1.DamagePageSides_Both(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_Auto_1.cs:line 1104
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.StandardManualEntriesShopProfileTest("6024102")
+
+Error Message:
+Multiple failures or warnings in test:
+  1) Could not place action 'CLICK' on  element. element click intercepted: Element <div class="Select-multi-value-wrapper" id="react-select-PartTypeDropdown--value">...</div> is not clickable at point (397, 363). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1) Could not place action 'CLICK' on  element. element click intercepted: Element <div class="Select-multi-value-wrapper" id="react-select-PartTypeDropdown--value">...</div> is not clickable at point (397, 363). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+TearDown : NUnit.Framework.AssertionException : Multiple failures or warnings in test:
+  1) Could not place action 'CLICK' on  element. element click intercepted: Element <div class="Select-multi-value-wrapper" id="react-select-PartTypeDropdown--value">...</div> is not clickable at point (397, 363). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1) Could not place action 'CLICK' on  element. element click intercepted: Element <div class="Select-multi-value-wrapper" id="react-select-PartTypeDropdown--value">...</div> is not clickable at point (397, 363). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+
+Stack Trace:
+--TearDown
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at NUnit.Framework.Assert.Fail(String message)
+   at aUI.Automation.HelperObjects.SolAssert.Fail(String message)
+   at ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.TearDown() in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_ShopProfileTests.cs:line 3214
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.ThresholdsShopProfileTest("5727316")
+
+Error Message:
+  Verify Successful Login
+  Expected: True
+  But was:  False
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.True(Boolean condition, String validationDescription)
+   at EstimationAutomation.PageObjects.LoginPage.LoginPage.Login(String userName, String password, Boolean invalid) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\LoginPage\LoginPage.cs:line 60
+   at ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.ThresholdsShopProfileTest(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_ShopProfileTests.cs:line 851
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.MandatoryFieldsStaffProfileTest("5454791")
+
+Error Message:
+Could not place action 'ENTER_TEXT' on Inspection date time input element. element click intercepted: Element <input class="form-control undefined maskDateTime" id="InspDateTime_Date-L5LG7Input" placeholder="mm/dd/yyyy hh:mm xm" value=""> is not clickable at point (378, 427). Other element would receive the click: <div class="spinner-overlay"></div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.EnterText(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.EnterText(Enum element, String text, Boolean clear) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 199
+   at EstimationAutomation.PageObjects.AdminPage.AdminPageFragments.QuickAdminFragments.QuickAdminFragments.InputInspectionDateTime(String dateTime) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\AdminPage\AdminPageFragments\QuickAdminFragments\QuickAdminFragments.cs:line 102
+   at ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.MandatoryFieldsStaffProfileTest(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_ShopProfileTests.cs:line 2025
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.CustomManualEntriesShopProfile_HomeProfileTest("5459038")
+
+Error Message:
+Multiple failures or warnings in test:
+  1)   Expected string length 7 but was 24. Strings differ at index 0.
+  Expected: "Battery"
+  But was:  "Unibody-Frame Incl Setup"
+  -----------^
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1)   Expected string length 7 but was 24. Strings differ at index 0.
+  Expected: "Battery"
+  But was:  "Unibody-Frame Incl Setup"
+  -----------^
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+TearDown : NUnit.Framework.AssertionException : Multiple failures or warnings in test:
+  1)   Expected string length 7 but was 24. Strings differ at index 0.
+  Expected: "Battery"
+  But was:  "Unibody-Frame Incl Setup"
+  -----------^
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1)   Expected string length 7 but was 24. Strings differ at index 0.
+  Expected: "Battery"
+  But was:  "Unibody-Frame Incl Setup"
+  -----------^
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+
+Stack Trace:
+--TearDown
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at NUnit.Framework.Assert.Fail(String message)
+   at aUI.Automation.HelperObjects.SolAssert.Fail(String message)
+   at ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.TearDown() in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_ShopProfileTests.cs:line 3214
+
+FAILED:  ADXE10Tests.WorkList.WorkList.NewEstimateTest("634771")
+
+Error Message:
+Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.ClickElement(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.ClickLogoutButton() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 304
+   at ADXE10Tests.WorkList.WorkList.NewEstimateTest(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\NewEstimate.cs:line 664
+
+
+FAILED:  ADXE10Tests.QuickAdmin.QuickAdmin.InsurancePolicyNo("690663")
+
+Error Message:
+Could not place action 'ENTER_TEXT' on Inspection location element. element click intercepted: Element <input class="form-control undefined" type="text" id="VehicleLocation_WorksForInput" maxlength="35" value=""> is not clickable at point (399, 493). Other element would receive the click: <div class="spinner-overlay"></div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at EstimationAutomation.PageObjects.AdminPage.AdminPageFragments.QuickAdminFragments.QuickAdminFragments.EnterInspectionLocation(String location) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\AdminPage\AdminPageFragments\QuickAdminFragments\QuickAdminFragments.cs:line 421
+   at ADXE10Tests.QuickAdmin.QuickAdmin.InsurancePolicyNo(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\QuickAdmin.cs:line 55
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAuto2.RecallBulletinsUpdatingAfterVehicleInfoChanged("6270980")
+
+Error Message:
+  Verify text value '05V572000         Bulletin Date:   12/27/2005' contains '07V399000'
+  Expected: True
+  But was:  False
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.True(Boolean condition, String validationDescription)
+   at EstimationAutomation.PageObjects.VehiclePage.RecallTabFragments.RecallTabPage.VerifyRecallBulletinsID() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\VehiclePage\RecallTabFragments\RecallTabPage.cs:line 42
+   at ADXE10Tests.EstimateDamage.EstimateDamageAuto2.RecallBulletinsUpdatingAfterVehicleInfoChanged(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_Auto_2.cs:line 2911
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.ShopOrIADisclaimersForShopUserTest("5403259")
+
+Error Message:
+Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+TearDown : NUnit.Framework.AssertionException : Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+
+Stack Trace:
+--TearDown
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at NUnit.Framework.Assert.Fail(String message)
+   at aUI.Automation.HelperObjects.SolAssert.Fail(String message)
+   at ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.TearDown() in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_ShopProfileTests.cs:line 3214
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.ShopNewOrCopyProfile("5060719")
+
+Error Message:
+Multiple failures or warnings in test:
+  1)   Verify text value '$22.00' contains '0.00'
+  Expected: True
+  But was:  False
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div class="slideout-panel-header">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1)   Verify text value '$22.00' contains '0.00'
+  Expected: True
+  But was:  False
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div class="slideout-panel-header">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+TearDown : NUnit.Framework.AssertionException : Multiple failures or warnings in test:
+  1)   Verify text value '$22.00' contains '0.00'
+  Expected: True
+  But was:  False
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div class="slideout-panel-header">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1)   Verify text value '$22.00' contains '0.00'
+  Expected: True
+  But was:  False
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div class="slideout-panel-header">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+
+Stack Trace:
+--TearDown
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at NUnit.Framework.Assert.Fail(String message)
+   at aUI.Automation.HelperObjects.SolAssert.Fail(String message)
+   at ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.TearDown() in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_ShopProfileTests.cs:line 3214
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamagePartial2.AlternateParts_UsingLoadRateButton_OverrideOFF("6316220")
+
+Error Message:
+Could not place action 'CLICK' on Work list menu link element. element click intercepted: Element <li id="leftNavWorklistLink" class="nav-worklist cursor-click undefined">...</li> is not clickable at point (132, 112). Other element would receive the click: <div class="spinner-overlay"></div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.ClickElement(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.ClickWorkListLink() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 499
+   at ADXE10Tests.EstimateDamage.EstimateDamagePartial2.AlternateParts_UsingLoadRateButton_OverrideOFF(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_PartialClass2.cs:line 5869
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAutoS31.TimeoutReturnsToSamePage_VehicleFrameDimensionsTab("6161287")
+
+Error Message:
+Could not place action 'CLICK' on Close notification element. element click intercepted: Element <div class="close" data-dismiss="modal" aria-label="Close"></div> is not clickable at point (896, 67). Other element would receive the click: <div class="spinner-overlay"></div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.ClickElement(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.GetNotificationPopUpTitleForTimeOut() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 834
+   at ADXE10Tests.EstimateDamage.EstimateDamageAutoS31.TimeoutReturnsToSamePage_VehicleFrameDimensionsTab(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_AutoS3_1.cs:line 1519
+
+
+FAILED:  ADXE10Tests.QuickAdmin.QuickAdmin.ClaimNo("690664")
+
+Error Message:
+  Expected: some item equal to "16-345678910111213141516A"
+  But was:  <empty>
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.TextContains(Object obj, ICollection collection, String description)
+   at ADXE10Tests.QuickAdmin.QuickAdmin.ClaimNo(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\QuickAdmin.cs:line 293
+
+
+FAILED:  ADXE10Tests.EstimateDamageKevan.EstimateDamageKevan.CompletePage_PendingApprovalTest("1144833")
+
+Error Message:
+  Expected: True
+  But was:  False
+
+
+Stack Trace:
+   at ADXE10Tests.EstimateDamageKevan.EstimateDamageKevan.CompletePage_PendingApprovalTest(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamageKevan.cs:line 300
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAutoS31.TimeoutReturnsToSamePage_VehicleOptionTab("3443180")
+
+Error Message:
+Could not place action 'CLICK' on Close notification element. element click intercepted: Element <div class="close" data-dismiss="modal" aria-label="Close"></div> is not clickable at point (896, 67). Other element would receive the click: <div class="spinner-overlay"></div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.ClickElement(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.GetNotificationPopUpTitleForTimeOut() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 834
+   at ADXE10Tests.EstimateDamage.EstimateDamageAutoS31.TimeoutReturnsToSamePage_VehicleOptionTab(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_AutoS3_1.cs:line 1371
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamage.PartialVehicle_DamagePageBlock_VehicleNotListed("5343715")
+
+Error Message:
+Could not place action 'CLICK' on No vin available radio bt element. element click intercepted: Element <label for="3" class="vin-no-vin">...</label> is not clickable at point (671, 344). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.ClickElement(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.Click(Enum element, Int32 parent) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 161
+   at EstimationAutomation.PageObjects.VehiclePage.VehiclePage.ClickNoVINAvailableRadioBtn() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\VehiclePage\VehiclePage.cs:line 224
+   at ADXE10Tests.EstimateDamage.EstimateDamage.PartialVehicle_DamagePageBlock_VehicleNotListed(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage.cs:line 4460
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAutoS34.DamagePageClaimInfoVehicleNotListed("6664723")
+
+Error Message:
+Multiple failures or warnings in test:
+  1) Could not place action 'CLICK' on In accessible vINRadio bt element. element click intercepted: Element <label for="1" class="vin-no-vin">...</label> is not clickable at point (371, 344). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  2) Could not place action 'ENTER_TEXT' on Description input element. invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=83.0.4103.61)
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.EnterText(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.EnterText(Enum element, String text, Boolean clear) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 199
+   at EstimationAutomation.PageObjects.VehiclePage.VehiclePageFragments.VehicleNotListedFragment.EnterDescription(String description) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\VehiclePage\VehiclePageFragments\VehicleNotListedFragment.cs:line 104
+   at ADXE10Tests.EstimateDamage.EstimateDamageAutoS34.DamagePageClaimInfoVehicleNotListed(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_AutoS3_4.cs:line 2691
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAutoS31.TimeoutReturnsToSamePage_VehicleAftermarketTab("6161262")
+
+Error Message:
+Could not place action 'CLICK' on Close notification element. element click intercepted: Element <div class="close" data-dismiss="modal" aria-label="Close"></div> is not clickable at point (896, 67). Other element would receive the click: <div class="spinner-overlay"></div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.ClickElement(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.GetNotificationPopUpTitleForTimeOut() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 834
+   at ADXE10Tests.EstimateDamage.EstimateDamageAutoS31.TimeoutReturnsToSamePage_VehicleAftermarketTab(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_AutoS3_1.cs:line 1422
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAutoS31.TimeoutReturnsToSamePage_Vehicle("6004251")
+
+Error Message:
+Could not place action 'CLICK' on Close notification element. element click intercepted: Element <div class="close" data-dismiss="modal" aria-label="Close"></div> is not clickable at point (896, 67). Other element would receive the click: <div class="spinner-overlay"></div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.ClickElement(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.GetNotificationPopUpTitleForTimeOut() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 834
+   at ADXE10Tests.EstimateDamage.EstimateDamageAutoS31.TimeoutReturnsToSamePage_Vehicle(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_AutoS3_1.cs:line 1324
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAutoS32.AlternateParts_SuppliersLeftandRight("6934248")
+
+Error Message:
+  Verify text value 'SPart3583140469088' contains 'SPart3584303618135'
+  Expected: True
+  But was:  False
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.True(Boolean condition, String validationDescription)
+   at ADXE10Tests.EstimateDamage.EstimateDamageAutoS32.AlternateParts_SuppliersLeftandRight(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_AutoS3_2.cs:line 3336
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAutoS31.TimeoutReturnsToSamePage_VehicleRECALLSTab("6161270")
+
+Error Message:
+Could not place action 'CLICK' on Close notification element. element click intercepted: Element <div class="close" data-dismiss="modal" aria-label="Close"></div> is not clickable at point (896, 67). Other element would receive the click: <div class="spinner-overlay"></div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.ClickElement(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.GetNotificationPopUpTitleForTimeOut() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 834
+   at ADXE10Tests.EstimateDamage.EstimateDamageAutoS31.TimeoutReturnsToSamePage_VehicleRECALLSTab(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_AutoS3_1.cs:line 1470
+
+
+FAILED:  ADXE10Tests.QuickAdmin.QuickAdmin.NewEstimate_InsuranceStaff("759983")
+
+Error Message:
+Multiple failures or warnings in test:
+  1)   Expected: some item equal to "16-875678910111217841516B"
+  But was:  <empty>
+
+  2)   Expected: some item equal to "AUTO_3700108541299"
+  But was:  <empty>
+
+  3)   Expected: some item equal to "3700108541299"
+  But was:  <empty>
+
+  4)   Expected: some item equal to "3700108541299"
+  But was:  <empty>
+
+  5)   Expected: some item equal to "Collision"
+  But was:  <empty>
+
+  6)   Expected: some item equal to "Cat Drive In"
+  But was:  <empty>
+
+  7)   Expected: some item equal to "09/10/2020"
+  But was:  <empty>
+
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.Multiple(TestDelegate testDelegate)
+   at ADXE10Tests.QuickAdmin.QuickAdmin.NewEstimate_InsuranceStaff(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\QuickAdmin.cs:line 550
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAuto3.DecisionSupportMessageGenericVehicleDecode("6646869")
+
+Error Message:
+  Verify text value 'Generic Vehicle' contains 'Vehicle ID'
+  Expected: True
+  But was:  False
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.True(Boolean condition, String validationDescription)
+   at ADXE10Tests.EstimateDamage.EstimateDamageAuto3.DecisionSupportMessageGenericVehicleDecode(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_Auto_3.cs:line 1693
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAuto3.PhotosAddAndDeleteOnWorklist("3443178")
+
+Error Message:
+  Expected: True
+  But was:  False
+
+
+Stack Trace:
+   at ADXE10Tests.EstimateDamage.EstimateDamageAuto3.PhotosAddAndDeleteOnWorklist(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_Auto_3.cs:line 829
+
+
+FAILED:  ADXE10Tests.Inspection.Inspection.NewEstimate("672498")
+
+Error Message:
+  Expected: some item equal to "Cat Drive In"
+  But was:  <empty>
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.TextContains(Object obj, ICollection collection, String description)
+   at ADXE10Tests.Inspection.Inspection.NewEstimate(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\Inspection.cs:line 108
+
+
+FAILED:  ADXE10Tests.EstimateComplete.EstimateComplete.CompletePage_DeductibleMessageDialog("1009711")
+
+Error Message:
+OpenQA.Selenium.WebDriverException : invalid session id
+
+Stack Trace:
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.get_WindowHandles()
+   at aUI.Automation.TestExecutioner.GetBrowserTabs()
+   at aUI.Automation.TestExecutioner.SelectTab(Int32 index)
+   at EstimationAutomation.PageObjects.ReportsPage.GetReportUrl() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\ReportsPage\ReportsPage.cs:line 50
+   at EstimationAutomation.PageObjects.ReportsPage.DownloadReport(String browserType, String reportType, String pageURL) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\ReportsPage\ReportsPage.cs:line 118
+   at EstimationAutomation.PageObjects.ReportsPage.GetTextFromPdfFile(String browserType, String reportType, String pageURL) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\ReportsPage\ReportsPage.cs:line 70
+   at EstimationAutomation.PageObjects.ReportsPage.GetPDFKeyWords(List`1 keywordList) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\ReportsPage\ReportsPage.cs:line 128
+   at ADXE10Tests.EstimateComplete.EstimateComplete.CompletePage_DeductibleMessageDialog(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateComplete.cs:line 744
+
+FAILED:  ADXE10Tests.EstimateVehicle.EstimateVehicle.Options_Saved_After_Logout("755155")
+
+Error Message:
+  Expected: some item equal to "Automatic Dimming Mirror"
+  But was:  <empty>
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.TextContains(Object obj, ICollection collection, String description)
+   at ADXE10Tests.EstimateVehicle.EstimateVehicle.Options_Saved_After_Logout(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateVehicle.cs:line 408
+
+
+FAILED:  ADXE10Tests.WorkList.WorkList.ClaimActionsMergeTest("864607")
+
+Error Message:
+Could not place action 'ENTER_TEXT' on Merge owner input element. element click intercepted: Element <input id="mergeOwnerInput" class="form-control" value="Assignment Last Name"> is not clickable at point (312, 243). Other element would receive the click: <div class="spinner-overlay"></div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.EnterText(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.EnterText(Enum element, String text, Boolean clear) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 199
+   at EstimationAutomation.PageObjects.SearchPage.SearchPageFragments.SearchPageModalFragments.InputMergeOwner(String input) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\SearchPage\SearchPageFragments\SearchPageModalFragments.cs:line 52
+   at ADXE10Tests.WorkList.WorkList.ClaimActionsMergeTest(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\NewEstimate.cs:line 1989
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamage.LaborRateGlassPartAdjustment("816839")
+
+Error Message:
+Multiple failures or warnings in test:
+  1)   Verify text value 'failed to find element' contains 'Changed from $0.00 in Rate Template'
+  Expected: True
+  But was:  False
+
+  2)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Estimate/Rates"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Estimate/Rates"
+
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.True(Boolean condition, String validationDescription)
+   at ADXE10Tests.EstimateDamage.EstimateDamage.LaborRateGlassPartAdjustment(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage.cs:line 634
+   at aUI.Automation.HelperObjects.SolAssert.AreNotEqual(Object expected, Object actual, String validationDescription)
+   at EstimationAutomation.PageObjects.ProfileListPage.ProfileListPage.SelectProfileADXE10(String profileName) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\ProfileListPage\ProfileListPage.cs:line 45
+   at EstimationAutomation.EstimateGlobal.CommonActions.DeleteNewRateTemplate(String profile, List`1 templates) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\CommonActions.cs:line 181
+   at ADXE10Tests.EstimateDamage.EstimateDamage.TearDown() in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage.cs:line 4920
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAuto5.RepairProcedureOFF_SupplementFromWalkInNoVIN("2120163")
+
+Error Message:
+Could not place action 'CLICK' on Left menu toggle element. element click intercepted: Element <a id="menu-toggle">...</a> is not clickable at point (33, 20). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.ClickElement(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.ClickLeftMenu() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 142
+   at ADXE10Tests.EstimateDamage.EstimateDamageAuto5.RepairProcedureOFF_SupplementFromWalkInNoVIN(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_Auto_5.cs:line 313
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamage.AttachmentsLeftNavMenuItemNotVisible("6840350")
+
+Error Message:
+  Expected: False
+  But was:  True
+
+
+Stack Trace:
+   at ADXE10Tests.EstimateDamage.EstimateDamage.AttachmentsLeftNavMenuItemNotVisible(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage.cs:line 4873
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.TotalLossWarningThresholdInProgressShopProfileTest("5418730")
+
+Error Message:
+Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+TearDown : NUnit.Framework.AssertionException : Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+  2) Could not place action 'CLICK' on Logout button element. element click intercepted: Element <span id="topNavLogoutIcon">...</span> is not clickable at point (1231, 19). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+
+Stack Trace:
+--TearDown
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at NUnit.Framework.Assert.Fail(String message)
+   at aUI.Automation.HelperObjects.SolAssert.Fail(String message)
+   at ADXE10Tests.EstimateDamage.EstimateDamageShopProfile.TearDown() in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_ShopProfileTests.cs:line 3214
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamage.LaborRateFrame("929335")
+
+Error Message:
+Multiple failures or warnings in test:
+  1)   Verify text value 'failed to find element' contains 'Changed from $0.00 in Rate Template'
+  Expected: True
+  But was:  False
+
+  2)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Estimate/Rates"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Estimate/Rates"
+
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.True(Boolean condition, String validationDescription)
+   at ADXE10Tests.EstimateDamage.EstimateDamage.LaborRateFrame(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage.cs:line 3470
+   at aUI.Automation.HelperObjects.SolAssert.AreNotEqual(Object expected, Object actual, String validationDescription)
+   at EstimationAutomation.PageObjects.ProfileListPage.ProfileListPage.SelectProfileADXE10(String profileName) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\ProfileListPage\ProfileListPage.cs:line 45
+   at EstimationAutomation.EstimateGlobal.CommonActions.DeleteNewRateTemplate(String profile, List`1 templates) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\CommonActions.cs:line 181
+   at ADXE10Tests.EstimateDamage.EstimateDamage.TearDown() in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage.cs:line 4920
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamage.LaborRateSheetmetal("816836")
+
+Error Message:
+Multiple failures or warnings in test:
+  1)   Verify text value 'failed to find element' contains 'Changed from $0.00 in Rate Template'
+  Expected: True
+  But was:  False
+
+  2)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Estimate/Rates"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Estimate/Rates"
+
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.True(Boolean condition, String validationDescription)
+   at ADXE10Tests.EstimateDamage.EstimateDamage.LaborRateSheetmetal(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage.cs:line 297
+   at aUI.Automation.HelperObjects.SolAssert.AreNotEqual(Object expected, Object actual, String validationDescription)
+   at EstimationAutomation.PageObjects.ProfileListPage.ProfileListPage.SelectProfileADXE10(String profileName) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\ProfileListPage\ProfileListPage.cs:line 45
+   at EstimationAutomation.EstimateGlobal.CommonActions.DeleteNewRateTemplate(String profile, List`1 templates) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\CommonActions.cs:line 181
+   at ADXE10Tests.EstimateDamage.EstimateDamage.TearDown() in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage.cs:line 4920
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamage.LaborRateMechElectrical("816838")
+
+Error Message:
+System.NullReferenceException : Object reference not set to an instance of an object.
+
+Stack Trace:
+   at ADXE10Tests.EstimateDamage.EstimateDamage.LaborRateMechElectrical(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage.cs:line 895
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamage.LaborRateRefinish("929336")
+
+Error Message:
+Multiple failures or warnings in test:
+  1)   Verify text value 'failed to find element' contains 'Changed from $0.00 in Rate Template'
+  Expected: True
+  But was:  False
+
+  2)   Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Estimate/Rates"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Estimate/Rates"
+
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.True(Boolean condition, String validationDescription)
+   at ADXE10Tests.EstimateDamage.EstimateDamage.LaborRateRefinish(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage.cs:line 3905
+   at aUI.Automation.HelperObjects.SolAssert.AreNotEqual(Object expected, Object actual, String validationDescription)
+   at EstimationAutomation.PageObjects.ProfileListPage.ProfileListPage.SelectProfileADXE10(String profileName) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\ProfileListPage\ProfileListPage.cs:line 45
+   at EstimationAutomation.EstimateGlobal.CommonActions.DeleteNewRateTemplate(String profile, List`1 templates) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\CommonActions.cs:line 181
+   at ADXE10Tests.EstimateDamage.EstimateDamage.TearDown() in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage.cs:line 4920
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAuto2.ShopUpdateDefaultRateRecordDRPProfile("5098486")
+
+Error Message:
+Multiple failures or warnings in test:
+  1) Could not place action 'CLICK' on Rates menu aDXE10 element. element click intercepted: Element <div id="leftNavNav_ClaimContainer_...">Rates</div> is not clickable at point (86, 556). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  2) Could not place action 'CLICK' on Work list menu link element. element click intercepted: Element <li id="leftNavWorklistLink" class="nav-worklist cursor-click undefined">...</li> is not clickable at point (132, 112). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1) Could not place action 'CLICK' on Rates menu aDXE10 element. element click intercepted: Element <div id="leftNavNav_ClaimContainer_...">Rates</div> is not clickable at point (86, 556). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  2) Could not place action 'CLICK' on Work list menu link element. element click intercepted: Element <li id="leftNavWorklistLink" class="nav-worklist cursor-click undefined">...</li> is not clickable at point (132, 112). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+TearDown : NUnit.Framework.AssertionException : Multiple failures or warnings in test:
+  1) Could not place action 'CLICK' on Rates menu aDXE10 element. element click intercepted: Element <div id="leftNavNav_ClaimContainer_...">Rates</div> is not clickable at point (86, 556). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  2) Could not place action 'CLICK' on Work list menu link element. element click intercepted: Element <li id="leftNavWorklistLink" class="nav-worklist cursor-click undefined">...</li> is not clickable at point (132, 112). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  3) Teardown error: Multiple failures or warnings in test:
+  1) Could not place action 'CLICK' on Rates menu aDXE10 element. element click intercepted: Element <div id="leftNavNav_ClaimContainer_...">Rates</div> is not clickable at point (86, 556). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+  2) Could not place action 'CLICK' on Work list menu link element. element click intercepted: Element <li id="leftNavWorklistLink" class="nav-worklist cursor-click undefined">...</li> is not clickable at point (132, 112). Other element would receive the click: <div role="dialog" tabindex="-1" class="fade in modal" style="display: block;">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+
+
+Stack Trace:
+--TearDown
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at NUnit.Framework.Assert.Fail(String message)
+   at aUI.Automation.HelperObjects.SolAssert.Fail(String message)
+   at ADXE10Tests.EstimateDamage.EstimateDamageAuto2.TearDown() in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_Auto_2.cs:line 3573
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAuto3.OEMPartPricingON_GMVehicle("1510665")
+
+Error Message:
+  Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.AreNotEqual(Object expected, Object actual, String validationDescription)
+   at EstimationAutomation.PageObjects.ProfileListPage.ProfileListPage.SelectProfileADXE10(String profileName) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\ProfileListPage\ProfileListPage.cs:line 45
+   at EstimationAutomation.EstimateGlobal.CommonActions.DeleteNewRateTemplate(String profile, List`1 templates) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\CommonActions.cs:line 181
+   at ADXE10Tests.EstimateDamage.EstimateDamageAuto3.OEMPartPricingON_GMVehicle(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_Auto_3.cs:line 214
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAuto3.OEMPartPricingON_FordVehicle("1510666")
+
+Error Message:
+  Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.AreNotEqual(Object expected, Object actual, String validationDescription)
+   at EstimationAutomation.PageObjects.ProfileListPage.ProfileListPage.SelectProfileADXE10(String profileName) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\ProfileListPage\ProfileListPage.cs:line 45
+   at EstimationAutomation.EstimateGlobal.CommonActions.DeleteNewRateTemplate(String profile, List`1 templates) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\CommonActions.cs:line 181
+   at ADXE10Tests.EstimateDamage.EstimateDamageAuto3.OEMPartPricingON_FordVehicle(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_Auto_3.cs:line 378
+
+
+FAILED:  ADXE10Tests.QuickAdmin.QuickAdmin.NewEstimate_Shop("766324")
+
+Error Message:
+Could not place action 'ENTER_TEXT' on Claim no input element. element click intercepted: Element <input class="form-control " type="text" id="ClaimNoInput" maxlength="25" value=""> is not clickable at point (644, 327). Other element would receive the click: <div class="div-table-col col-custDBAddr1 ">...</div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at EstimationAutomation.PageObjects.AdminPage.AdminPageFragments.QuickAdminFragments.QuickAdminFragments.EnterClaimNumber(String claimNumber) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\AdminPage\AdminPageFragments\QuickAdminFragments\QuickAdminFragments.cs:line 160
+   at ADXE10Tests.QuickAdmin.QuickAdmin.NewEstimate_Shop(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\QuickAdmin.cs:line 586
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAutoS32.TimeoutReturnsToSamePage_POI("6214522")
+
+Error Message:
+Could not place action 'CLICK' on Close notification element. element click intercepted: Element <div class="close" data-dismiss="modal" aria-label="Close"></div> is not clickable at point (896, 67). Other element would receive the click: <div class="spinner-overlay"></div>
+  (Session info: chrome=83.0.4103.61)
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.WebDriverExtensions.PlaceAction(IWebElement element, ElementAction action, ElementDefinition elementData, Boolean findChild, TestExecutioner execute)
+   at aUI.Automation.UIDrivers.BrowserDriver.ActionControl(ElementAction action, ElementDefinition elementData, Boolean findChild)
+   at aUI.Automation.TestExecutioner.ClickElement(ElementDefinition elementData)
+   at EstimationAutomation.EstimationAutomationBase.GetNotificationPopUpTitleForTimeOut() in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\EstimateGlobal\EstimationAutomationBase.cs:line 834
+   at ADXE10Tests.EstimateDamage.EstimateDamageAutoS32.TimeoutReturnsToSamePage_POI(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_AutoS3_2.cs:line 2844
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamageAuto2.CustomerDatabase("6090413")
+
+Error Message:
+  Verify the desired profile was selected.
+  Expected: not equal to "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+  But was:  "https://adxe-qa-2.apps-dev.gp2.axadmin.net/Estimating/Setup/ProfilesList"
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.AreNotEqual(Object expected, Object actual, String validationDescription)
+   at EstimationAutomation.PageObjects.ProfileListPage.ProfileListPage.SelectProfileADXE10(String profileName) in E:\Jenkins\Workspaces\ADXE10\EstimationAutomation\PageObjects\ProfileListPage\ProfileListPage.cs:line 45
+   at ADXE10Tests.EstimateDamage.EstimateDamageAuto2.CustomerDatabase(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_Auto_2.cs:line 2964
+
+
+FAILED:  ADXE10Tests.EstimateDamage.EstimateDamagePartial2.UsingTrashIconToDeleteDamages("1083041")
+
+Error Message:
+  Expected: some item equal to "Fender,Front"
+  But was:  <empty>
+
+
+Stack Trace:
+   at aUI.Automation.HelperObjects.SolAssert.TextContains(Object obj, ICollection collection, String description)
+   at ADXE10Tests.EstimateDamage.EstimateDamagePartial2.UsingTrashIconToDeleteDamages(String num) in E:\Jenkins\Workspaces\ADXE10\ADXE10Tests\EstimateDamage_PartialClass2.cs:line 1533
